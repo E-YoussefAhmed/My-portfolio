@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Web Page</title>
+    <link rel="stylesheet" href="CSS/Normalize.css" />
+    <link rel="stylesheet" href="CSS/all.min.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Start Header -->
+    <header>
+      <div class="container">
+        <div class="logo">
+          <a href="#"><span>JOE</span></a>
+        </div>
+        <ul class="navbar">
+          <li><a href="#landing">Home</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#Capabilities">Capabilities</a></li>
+          <li>
+            <div id="links" class="links">
+              <div id="menu-icon" class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <ul>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- End Header -->
+    <!-- Start Landing -->
+    <div id="landing" class="landing">
+      <div class="container">
+        <div class="text">
+          <h2>Hello, I'm Youssef</h2>
+          <h1>I'm a</h1>
+          <h1><span class="auto-type"></span></h1>
+        </div>
+        <div class="img">
+          <img src="Imgs/landing.png" alt="" />
+        </div>
+      </div>
+      <div class="go-down">
+        <a href="#skills">
+          <i class="fa-solid fa-angles-down fa-3x"></i>
+        </a>
+      </div>
+    </div>
+    <!-- End Landing -->
+    <!-- Start Skills -->
+    <div id="skills" class="skills">
+      <h2 class="main-title">skills</h2>
+      <div class="container">
+        <div class="card">
+          <div class="percent" style="--clr: #04fc43; --num: 85">
+            <div class="dot"></div>
+            <svg>
+              <circle cx="70" cy="70" r="70"></circle>
+              <circle cx="70" cy="70" r="70"></circle>
+            </svg>
+            <div class="number">
+              <h2 class="nums" data-goal="85">0</h2>
+              <p>HTML</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="percent" style="--clr: #06ccff; --num: 95">
+            <div class="dot"></div>
+            <svg>
+              <circle cx="70" cy="70" r="70"></circle>
+              <circle cx="70" cy="70" r="70"></circle>
+            </svg>
+            <div class="number">
+              <h2 class="nums" data-goal="95">0</h2>
+              <p>Css</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="percent" style="--clr: #fee800; --num: 72">
+            <div class="dot"></div>
+            <svg>
+              <circle cx="70" cy="70" r="70"></circle>
+              <circle cx="70" cy="70" r="70"></circle>
+            </svg>
+            <div class="number">
+              <h2 class="nums" data-goal="72">0</h2>
+              <p>javascript</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Skills -->
+    <!-- Start Capabilities -->
+    <div id="Capabilities" class="Capabilities">
+      <h2 class="main-title"><span>Capabilities</span></h2>
+      <div class="container">
+        <div class="cards">
+          <div class="card">
+            <div class="icon"></div>
+            <h2>Web Pages</h2>
+            <p>
+              I can build responsive web pages that can work on any device or
+              fix your websites' bugs
+            </p>
+          </div>
+          <div class="card">
+            <div class="icon"></div>
+            <h2>Interactive Page</h2>
+            <p>
+              I can add alot of animated elements to the page with variety of
+              animations and make them interactive
+            </p>
+          </div>
+          <div class="card">
+            <div class="icon"></div>
+            <h2>Frameworks</h2>
+            <p>
+              I can use framworks and libraries to build your website from zero
+              or adjust anything you want
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Capabilities -->
+    <!-- Start Portfolio -->
+    <div class="portfolio" id="portfolio">
+      <div class="main-title" data-text="&nbsp;Portfolio&nbsp;">
+        &nbsp;Portfolio&nbsp;
+      </div>
+      <div class="container">
+        <ul class="switcher">
+          <li class="active" data-cat=".all">All</li>
+          <li data-cat=".pages">Pages</li>
+          <li data-cat=".apps">Apps</li>
+        </ul>
+        <div class="gallery">
+          <div class="box all pages">
+            <div class="image" id="slider-container">
+              <img src="Imgs/page1.png" alt="" />
+            </div>
+            <div class="text">
+              <h2>Leon design</h2>
+              <a href="../HTML-CSS-JS-Templates/Project-1/index.html"
+                ><button>See More</button></a
+              >
+            </div>
+          </div>
+          <div class="box all pages">
+            <div class="image" id="slider-container">
+              <img src="Imgs/page2.png" alt="" />
+            </div>
+            <div class="text">
+              <h2>Kaspar design</h2>
+              <a href="../HTML-CSS-JS-Templates/Project-2/index.html"
+                ><button>See More</button></a
+              >
+            </div>
+          </div>
+          <div class="box all pages">
+            <div class="image" id="slider-container">
+              <img src="Imgs/page3.png" alt="" />
+            </div>
+            <div class="text">
+              <h2>Master design</h2>
+              <a href="../HTML-CSS-JS-Templates/Project-3/index.html"
+                ><button>See More</button></a
+              >
+            </div>
+          </div>
+          <div class="box all apps">
+            <div class="image" id="slider-container">
+              <img src="Imgs/app1.png" alt="" />
+            </div>
+            <div class="text">
+              <h2>Usd Currency Exchanger</h2>
+              <a
+                href="../HTML-CSS-JS-Projects/Project1 (USD Currency)/index.html"
+                ><button>See More</button></a
+              >
+            </div>
+          </div>
+          <div class="box all apps">
+            <div class="image" id="slider-container">
+              <img src="Imgs/app2.png" alt="" />
+            </div>
+            <div class="text">
+              <h2>To Do List</h2>
+              <a href="../HTML-CSS-JS-Projects/Project2 (To Do List)/index.html"
+                ><button>See More</button></a
+              >
+            </div>
+          </div>
+          <div class="box all apps">
+            <div class="image" id="slider-container">
+              <img src="Imgs/app3.png" alt="" />
+            </div>
+            <div class="text">
+              <h2>Calculator</h2>
+              <a href="../HTML-CSS-JS-Projects/Project3 (Calculator)/index.html"
+                ><button>See More</button></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Portfolio -->
+    <!-- Start Contact -->
+    <div class="contact" id="contact">
+      <h2 class="main-title"><span>Contact Us</span></h2>
+      <div class="container">
+        <h3>
+          What are you waiting for! <br />
+          Let's work togather.
+        </h3>
+        <div class="info">
+          <div class="phone">
+            <div class="icon">
+              <i class="fa-solid fa-phone fa-3x"></i>
+            </div>
+            <a href="tel:+201069036485">(+20)106-9036-485</a>
+          </div>
+          <div class="mail">
+            <div class="icon">
+              <i class="fa-solid fa-envelope fa-3x"></i>
+            </div>
+            <a href="mailto:ya23122002@gmail.com">ya23122002@gmail.com</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Contact -->
+    <!-- Start Footer -->
+    <div class="footer">
+      <div class="container">
+        <ul class="socials">
+          <li style="--i: 6; --clr: #1877f2">
+            <a href="https://www.facebook.com/profile.php?id=100011448804193">
+              <span><i class="fa-brands fa-facebook-f"></i></span> Facebook
+            </a>
+          </li>
+          <li style="--i: 5; --clr: #25d366">
+            <a href="https://wa.link/64nt1i">
+              <span><i class="fa-brands fa-whatsapp"></i></span> WhatsApp
+            </a>
+          </li>
+          <li style="--i: 4; --clr: #1da1f2">
+            <a href="https://twitter.com/ya23122002">
+              <span><i class="fa-brands fa-twitter"></i></span> Twitter
+            </a>
+          </li>
+          <li style="--i: 3; --clr: #c32aa3">
+            <a href="https://www.instagram.com/youssef1125/">
+              <span><i class="fa-brands fa-instagram"></i></span> Instagram
+            </a>
+          </li>
+          <li style="--i: 2; --clr: #7289da">
+            <a href="https://discord.com/users/573116197005033472">
+              <span><i class="fa-brands fa-discord"></i></span> discord
+            </a>
+          </li>
+          <li style="--i: 1; --clr: #0a66c2">
+            <a href="https://www.linkedin.com/in/youssef-ahmed-b7471224b/">
+              <span><i class="fa-brands fa-linkedin"></i></span> LinkedIn
+            </a>
+          </li>
+        </ul>
+        <div class="info">
+          <h1>JOE</h1>
+          <div class="line">
+            <i class="fa-solid fa-location-dot fa-2x"></i>
+            <div class="text">Egypt, Alexandria, El-Agamy</div>
+          </div>
+          <div class="line">
+            <i class="fa-regular fa-clock fa-2x"></i>
+            <div class="text">Business Hours: From 10:00 To 18:00</div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Made by <a href="#landing">Youssef</a> &copy; <span id="date"></span>
+        </p>
+      </div>
+    </div>
+    <!-- End Footer -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="js/vanilla-tilt.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelectorAll(".Capabilities .card"), {
+        max: 25,
+        speed: 400,
+        glare: true,
+        "max-glare": 1,
+      });
+    </script>
+    <script src="JS/main.js"></script>
+  </body>
+</html>
